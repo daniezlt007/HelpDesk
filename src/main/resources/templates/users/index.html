@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org/"
+	  xmlns:layout="http://ultraq.net.nz/web/thymeleaf/layout/"
+	  layout:decorator="layout">
+	<div th:replace="fragments/header"></div>
+	<th:block layout:fragment="content">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Nome</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Daniel da Silva</td>
+					<td>danielzt007@outlook.com</td>
+				</tr>
+			</tbody>
+		</table>
+	</th:block>
+</html>
